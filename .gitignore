@@ -4,4 +4,5 @@ agent
 out*
 std*
 *.csv
+Backtrace*
 
