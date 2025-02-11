@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Cleaning up"
+rm -rf agent cases* Backtrace* std* out* plt*
+echo "Copying ExaEpi binary"
+cp $EXAEPI_BUILD/bin/agent .
+
+jobscript=$(ls exaepi*${SYS_TYPE}.job)
+echo "Submitting $jobscript"
+bsub $jobscript
+
