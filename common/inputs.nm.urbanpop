@@ -2,7 +2,7 @@
 agent.ic_type = "urbanpop"
 agent.urbanpop_filename = "urbanpop_nm"
 
-agent.nsteps = 10
+agent.nsteps = 4
 agent.plot_int = 10
 
 agent.aggregated_diag_int = 1

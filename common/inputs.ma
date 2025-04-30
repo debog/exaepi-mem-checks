@@ -3,7 +3,7 @@ agent.ic_type = "census"
 agent.census_filename = "MA.dat"
 agent.workerflow_filename = "MA-wf.dat"
 
-agent.nsteps = 120
+agent.nsteps = 10
 agent.plot_int = 10
 agent.random_travel_int = 24
 
